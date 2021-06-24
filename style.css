@@ -9,7 +9,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
     height: 400px;
-    text-align: center;
+    margin: auto;
 }
 
 #welcome {
@@ -49,6 +49,9 @@ h2 {
     text-align: center;
     font-size: 42px;
     overflow: hidden;
+    margin: auto;
+    max-width: 450px;
+    background-color: white;
 }
 
 .line {
@@ -59,7 +62,6 @@ h2 {
 }
 
 p {
-    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
     font-size: 17px;
